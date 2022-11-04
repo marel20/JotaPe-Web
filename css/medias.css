@@ -14,23 +14,19 @@
         display: block;
         margin-right: 30px;
     }
-    .nav-logo{
-        padding: 0 !important;
-    }
 
     nav{
         position: absolute;
         top: -100vh;
         display: flex;
         flex-direction: column;
-        background: linear-gradient(to right, red, blue);
+        background: #cacacad7;
         text-align: center;
         overflow: hidden;
         height: calc(100vh - 100px);
         width: 100%;
-        z-index: 1000 !important;
+        z-index: -1;
         transition: .6s;
-        padding: 10px !important;
     }
 
     nav .nav-list{
@@ -38,8 +34,13 @@
         margin: 0 auto;
     }
 
+    .nav-link a{
+        color: #000000 !important;
+        font-weight: bold;
+    }
+
     .active{
         top: 100px;
     }
-
+    
 }
