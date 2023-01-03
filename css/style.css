@@ -212,6 +212,11 @@ section{
     align-items: center;
 }
 
+.location{
+    width: 45%;
+    text-align: center;
+}
+
 form{
     display: flex;
     flex-direction: column;

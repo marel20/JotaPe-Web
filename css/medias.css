@@ -56,5 +56,24 @@
         width: 90%;
         margin: 0 auto;
     }
+
+    #contact{
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 auto !important;
+        gap: 50px;
+    }
+
+    .location{
+        width: 90%;
+    }
+    .location iframe{
+        width: 90%;
+    }
+
+    form{
+        width: 90%;
+        margin-bottom: 20px;
+    }
     
 }
