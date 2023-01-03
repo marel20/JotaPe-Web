@@ -26,10 +26,10 @@
     <header>
       <div class="container-navbar">
         <div class="nav-logo">
-          <img width="28%" src="assets/logo/logo.png" alt="" />
+          <img src="assets/logo/logo.png" alt="" />
         </div>
 
-        <nav>
+        <nav id="nav">
           <ul class="nav-list">
             <li class="nav-link"><a href="#header">Inicio</a></li>
             <li class="nav-link"><a href="#company">Quienes Somos</a></li>
@@ -42,22 +42,147 @@
       </div>
     </header>
     <main>
-      <img class="repair" src="assets/img/repair.png" alt="" />
+      <!-- <img class="repair" src="assets/img/repair.png" alt="" /> -->
+      <div class="tittle">
+        <h1>JotaPe SHOP</h1>
+        <h3>Bienvenidos</h3>
+      </div>
 
       <!-- Company -->
-      <section id="company" class="company"></section>
+      <section id="company" class="company">
+        <article>
+          <h2>
+            Somos Joe y Pao, una pareja de novios que fusionaron sus
+            emprendimientos en esta tienda, para aportar felicidad a tu vida
+            mediante el uso de nuestros productos..
+          </h2>
+        </article>
+        <div>
+          <iframe
+            class="visible"
+            title="Noticias"
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpao.olivanti&tabs=timeline&width=500&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+            width="500"
+            height="600"
+            scrolling="yes"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          >
+          </iframe>
+          <iframe
+            class="hidden"
+            title="Noticias"
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpao.olivanti&tabs=timeline&width=500&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+            width="350"
+            height="600"
+            scrolling="yes"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          >
+          </iframe>
+        </div>
+      </section>
 
       <!-- Products -->
 
-      <section id="products" class="products"></section>
+      <section id="products" class="products">
+        <h2>Aqui irian los productos</h2>
+        <div class="img-products">
+          <img src="assets/img/repair.png" alt="" />
+          <img src="assets/img/repair.png" alt="" />
+          <img src="assets/img/repair.png" alt="" />
+          <img src="assets/img/repair.png" alt="" />
+          <img src="assets/img/repair.png" alt="" />
+        </div>
+      </section>
 
       <!-- Contact -->
 
-      <section id="contact" class="contact"></section>
+      <section id="contact" class="contact">
+        <div class="location">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2738.347899740965!2d-61.252322593599125!3d-32.84831161359619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x90f2c9bfda140dae!2sInolvidable%20Elena!5e0!3m2!1ses!2sar!4v1672766548527!5m2!1ses!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <form>
+          <div class="label">
+            <img src="assets/icons/user.png" alt="" /><label for="name"></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Nombre"
+              required
+            />
+          </div>
+
+          <div class="label">
+            <img src="assets/icons/user.png" alt="" /><label
+              for="surname"
+            ></label>
+            <input
+              type="text"
+              id="surname"
+              name="surname"
+              placeholder="Apellido"
+              required
+            />
+          </div>
+
+          <div class="label">
+            <img src="assets/icons/envelope.png" alt="" /><label
+              for="email"
+            ></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+
+          <div class="label">
+            <img src="assets/icons/phone.png" alt="" /><label
+              for="phone"
+            ></label>
+            <input
+              type="number"
+              id="phone"
+              name="phone"
+              placeholder="Teléfono"
+              required
+            />
+          </div>
+
+          <div>
+            <textarea
+              name="textarea"
+              id="textarea"
+              placeholder="Su mensaje"
+              required
+            ></textarea>
+          </div>
+
+          <div>
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
     </main>
 
+    <!-- Float Buttons -->
+
     <div id="whatsapp" class="btnWsp">
-      <a href="https://wa.me/+5493471416804" class="btn-wsp" target="_blank">
+      <a href="https://wa.me/+5493413744400" class="btn-wsp" target="_blank">
         <i class="icon-whatsapp"></i>
         <img
           src="assets/icons/whatsapp.png"
@@ -67,42 +192,42 @@
       </a>
     </div>
 
+    <div id="store" class="store">
+      <a href="#!">
+        <i class="fas fa-store"></i>
+        Tienda Online
+      </a>
+    </div>
+
     <div id="up" class="up">
       <a href="#header">
         <i class="fas fa-arrow-circle-up"></i>
       </a>
     </div>
 
+    <!-- Float Buttons -->
+
     <!-- Footer -->
 
-    <footer class="text-center text-white" style="background-color: #d8d5d5">
+    <footer class="text-center text-white">
       <!-- Grid container -->
       <div class="container pt-4">
         <!-- Section: Social media -->
-        <section class="mb-4">
+        <div class="mb-4">
           <!-- Facebook -->
           <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="https://www.facebook.com/mgSolutions37"
+            href="https://www.facebook.com/jotapeshop_"
             role="button"
             target="_blank"
             data-mdb-ripple-color="dark"
             ><i class="fab fa-facebook-f"></i
           ></a>
 
-          <!-- Twitter
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fab fa-twitter"></i
-          ></a> -->
-
           <!-- Email -->
           <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="mailto:mg.solutions37@gmail.com"
+            href="mailto:jotapeshop@gmail.com"
             role="button"
             target="_blank"
             data-mdb-ripple-color="dark"
@@ -112,43 +237,25 @@
           <!-- Instagram -->
           <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="https://www.instagram.com/mg.solutions_/"
+            href="https://www.instagram.com/jotapeshop_"
             role="button"
             target="_blank"
             data-mdb-ripple-color="dark"
             ><i class="fab fa-instagram"></i
           ></a>
-
-          <!-- Linkedin
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fab fa-linkedin"></i
-          ></a> -->
-
-          <!-- Web
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="https://www.mgsolutions.com.ar/"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fas fa-globe-europe"></i
-          ></a> -->
-        </section>
+        </div>
         <!-- Section: Social media -->
       </div>
       <!-- Grid container -->
 
       <!-- Copyright -->
-      <div
-        class="text-center text-black p-3"
-        style="background-color: rgba(0, 0, 0, 0.452)"
-      >
-        © 2022 Copyright:
+      <div class="copyright text-center text-black p-3">
+        <p>© 2023 Copyright:</p>
         <b
-          ><a class="text-black" href="https://www.mgsolutions.com.ar"
+          ><a
+            class="text-black"
+            href="https://www.mgsolutions.com.ar"
+            target="_blank"
             >MG Solutions</a
           ></b
         >

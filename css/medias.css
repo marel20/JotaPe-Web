@@ -15,12 +15,16 @@
         margin-right: 30px;
     }
 
+    .nav-logo{
+        margin: 10px auto !important;
+    }
+
     nav{
         position: absolute;
         top: -100vh;
         display: flex;
         flex-direction: column;
-        background: #cacacad7;
+        background: var(--lightgrey);
         text-align: center;
         overflow: hidden;
         height: calc(100vh - 100px);
@@ -41,6 +45,16 @@
 
     .active{
         top: 100px;
+    }
+
+    .company{
+        flex-direction: column;
+        justify-content: center;
+        gap: 70px;
+    }
+    .company article{
+        width: 90%;
+        margin: 0 auto;
     }
     
 }
