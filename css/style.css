@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dosis:wght@200;500&family=Gloria+Hallelujah&family=Kaushan+Script&family=Shadows+Into+Light&family=Signika+Negative:wght@300;700&display=swap');
+
+/* 
+font-family: 'Caveat', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Signika Negative', sans-serif; 
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +18,7 @@
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
     color: #000000;
+    font-family: 'Dosis', sans-serif;
 }
 
 :root{
@@ -71,11 +83,11 @@
 }
 .store i{
     color: var(--pink);
-    margin-right: 70px;
+    margin-right: 90px;
     transition: all .5s;
 }
 .store:hover{
-    transform: translate(-240px, 0);
+    transform: translate(-245px, 0);
     color: var(--yellow);
     background-color: var(--pink);
     transition: ease-in-out .5s;
@@ -136,6 +148,7 @@ header {
 .nav-link a{
     color: #000000;
     /* font-weight: bold; */
+    font-size: 20px;
     letter-spacing: 3px;
     transition: .3s;
 }
@@ -170,6 +183,12 @@ section{
     justify-content: center;
     align-items: center;
 }
+.tittle h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bold;
+    font-size: 65px;
+}
+
 /*---- Company Style ----*/
 
 .company{
@@ -177,6 +196,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin: 0 auto;
 }
 .company article{
     width: 50%;
