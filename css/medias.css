@@ -48,7 +48,7 @@
     }
 
     .company{
-        flex-direction: column;
+        flex-direction: column !important;
         justify-content: center;
         gap: 70px;
     }
@@ -76,4 +76,36 @@
         margin-bottom: 20px;
     }
     
+}
+
+@media screen and (min-width: 801px) and (max-width: 1100px){
+    .visible{
+        display: none !important;
+        visibility: hidden !important;
+    }
+    
+    .hidden{
+        display: block !important;
+        visibility: visible !important;
+    }
+
+    #contact{
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0 auto !important;
+        gap: 50px;
+    }
+
+    .location{
+        width: 90%;
+    }
+    .location iframe{
+        width: 90%;
+    }
+
+    form{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
 }
