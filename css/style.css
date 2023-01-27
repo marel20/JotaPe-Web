@@ -216,13 +216,27 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 .img-products{
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .img-products img{
-    width: 40%;
+    width: 30%;
+    height: 40vh;
+    border: 4px solid var(--pink);
+    border-radius: 16px;
+}
+.img-products img:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+    cursor: pointer;
 }
 /*---- Products Style ----*/
 
