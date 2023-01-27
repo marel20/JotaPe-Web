@@ -107,6 +107,11 @@ font-family: 'Signika Negative', sans-serif;
     width: 80%;
     margin: 130px auto 30px auto;
 }
+.banner{
+    max-width: 1300px;
+    width: 100%;
+    height: 50vh;
+}
 
 /*---- navbar style ----*/
 header {
