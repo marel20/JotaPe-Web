@@ -47,6 +47,10 @@
         top: 100px;
     }
 
+    .tittle h1{
+        font-size: 55px;
+    }
+
     .company{
         flex-direction: column !important;
         justify-content: center;
