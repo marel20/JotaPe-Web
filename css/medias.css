@@ -10,6 +10,34 @@
         visibility: visible !important;
     }
 
+    
+    .logo-slogan{
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        margin: 0 auto;
+    }
+    .logo-slogan img{
+        width: 100%;
+        transform: rotate(0);
+    }
+    .logo-slogan img:hover{
+        transform: scale(1);
+    }
+    .logo-slogan span{
+        width: 90%;
+        font-size: 25px;
+    }
+    
+    .text-home{
+        align-items: center;
+        margin: 0 auto;
+        padding: 30px;
+        gap: 30px;
+        color: #FFFFFF;
+    }
+
+
     .nav-toggle{
         display: block;
         margin-right: 30px;

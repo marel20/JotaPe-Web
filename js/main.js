@@ -11,10 +11,22 @@ if(window.scrollY > nav.offsetHeight + 1100) {
 }
 
 // navbar
-const toggle = document.querySelector('.nav-toggle');
-const links = document.querySelector('nav');
+// const toggle = document.querySelector('.nav-toggle');
+// const links = document.querySelector('nav');
 
-toggle.addEventListener('click', () => {
-    toggle.classList.toggle('rotate');
-    links.classList.toggle('active');
-})
+// toggle.addEventListener('click', () => {
+//     toggle.classList.toggle('rotate');
+//     links.classList.toggle('active');
+// })
+
+
+ $('#logo').on('mouseenter', flip);
+ $('#logo').on('mouseout', flipOut);
+
+ function flip() {
+     $('#logo').addClass('logo-spin');
+ }
+
+ function flipOut() {
+     $('#logo').addClass('logo-spin2');
+ }
